@@ -1,0 +1,509 @@
+.plezmo-screen {
+	position: absolute;
+	height: inherit; 
+	width: inherit; 
+	top: 0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+}
+
+#appScreen_1 {
+	width: 800px;
+	height: 600px;
+	display: block;
+	transform: scale(1.21833, 1.21833);
+	transform-origin: left top 0px;
+	background-color: transparent;
+}
+
+#heading_Label {
+	left: 151px;
+	top: 7px;
+	background-color: #f2ffab;
+	color: #5c0488;
+	height: 50px;
+	width: 500px;
+	font-size: 40px;
+	border-color: #f4f4f4;
+	border-radius: 1000px;
+	visibility: visible;
+}
+
+.plezmo-label {
+	color: #000000;
+	background-color: #ffffff;
+	font-size: 14px;
+	border: 1px solid #347c92;
+	font-family: muliSemiBoldFont;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0px;
+	box-shadow: none;
+	height: 35px;
+	width: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+#about me_Label {
+	left: 18px;
+	top: 82px;
+	height: 150px;
+	width: 750px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: #ffffff;
+	visibility: visible;
+}
+
+#strawberry_Image {
+	left: 4.17864px;
+	top: 187.358px;
+	height: 250px;
+	width: 250px;
+	border-color: rgb(244, 244, 244);
+	border-radius: 1000px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.plezmo-image {
+	background-color: white;
+	border: 1px solid #347c92;
+	overflow: hidden;
+	border-radius: 0px;
+	box-shadow: none;
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	z-index: 1;
+}
+
+#rules heading_Label_1 {
+	left: 196px;
+	top: 265px;
+	background-color: #f4f4f4;
+	color: #bf3625;
+	height: 50px;
+	width: 400px;
+	font-size: 22px;
+	border-color: #ffffff;
+	border-radius: 1000px;
+	visibility: visible;
+	z-index: 2;
+}
+
+#berry_Image {
+	left: 617px;
+	top: 206px;
+	background-color: #f4f4f4;
+	height: 150px;
+	width: 150px;
+	border-color: #ffffff;
+	visibility: visible;
+	z-index: 2;
+}
+
+#rules_Label {
+	left: 256.928px;
+	top: 267.943px;
+	height: 200px;
+	width: 350px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 15px;
+	border-color: rgb(255, 255, 255);
+	visibility: visible;
+	opacity: 1;
+}
+
+#play_Button {
+	left: 348.926px;
+	top: 506.369px;
+	background-color: rgb(236, 59, 36);
+	color: rgb(37, 37, 37);
+	height: 50px;
+	width: 150px;
+	font-size: 19px;
+	border-color: rgb(244, 244, 244);
+	background-image: url('toggle_on.svg');
+	border-radius: 1000px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.plezmo-button {
+	color: #000000;
+	font-family: muliSemiBoldFont;
+	background-color: #ffffff;
+	font-size: 14px;    
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	padding: 0px;
+	border: 1px solid #347c92;
+	overflow: hidden;
+	position: absolute;
+	box-shadow: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 100px;
+	z-index: 1;
+}
+
+#player_name_Textbox {
+	left: 474.645px;
+	top: 435.104px;
+	background-color: rgb(249, 227, 117);
+	width: 150px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-radius: 5px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.plezmo-input-text {
+	color: #000000;
+	background-color: #e7e7e8;
+	font-size: 14px;
+	font-family: muliSemiBoldFont;
+	border: 1px solid transparent;
+	border-color:  transparent;
+	text-align: center;
+	user-select: text;
+	border-radius: 0px;
+	height: 35px;
+	width: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+#player_Label {
+	left: 280.429px;
+	top: 426.602px;
+	background-color: transparent;
+	height: 45px;
+	width: 200px;
+	font-size: 20px;
+	border-color: transparent;
+	border-radius: 5px;
+	visibility: visible;
+	opacity: 1;
+}
+
+#creator_Label {
+	left: 550px;
+	top: 67.3557px;
+	background-color: transparent;
+	height: 50px;
+	width: 250px;
+	font-family: comfortaRegularFont;
+	font-size: 20px;
+	border-color: transparent;
+	border-radius: 5px;
+	visibility: visible;
+	opacity: 1;
+}
+
+#appScreen_2 {
+	width: 800px;
+	height: 600px;
+	display: none;
+	transform: scale(1.21833, 1.21833);
+	transform-origin: left top 0px;
+}
+
+#strawberry_Button {
+	left: 226.232px;
+	top: 286.907px;
+	background-color: transparent;
+	height: 40px;
+	width: 40px;
+	font-family: comfortaRegularFont;
+	border-color: transparent;
+	background-image: url('custom_app_image_1596263122489.jpg');
+	border-radius: 1000px;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#font_Label {
+	left: 63px;
+	top: 23.1614px;
+	background-color: rgb(244, 244, 244);
+	height: 50px;
+	width: 700px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 1000px;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#score_Label {
+	left: 103.464px;
+	top: 25.3406px;
+	background-color: rgb(244, 244, 244);
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: rgb(244, 244, 244);
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#Live_Label {
+	left: 337.246px;
+	top: 24.8208px;
+	background-color: rgb(244, 244, 244);
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: rgb(244, 244, 244);
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#value_Label {
+	left: 192.464px;
+	top: 34.1614px;
+	background-color: rgb(244, 244, 244);
+	height: 20px;
+	width: 20px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: rgb(244, 244, 244);
+	border-radius: 1000px;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#Live value_Label_1 {
+	left: 412.893px;
+	top: 33.8208px;
+	background-color: transparent;
+	height: 20px;
+	width: 20px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: transparent;
+	border-radius: 1000px;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#background_Button {
+	left: 10px;
+	top: 10px;
+	height: 590px;
+	width: 790px;
+	border-color: transparent;
+	background-image: url('custom_app_image_1596266664402.jpg');
+	visibility: visible;
+	opacity: 1;
+}
+
+#Time_Label {
+	left: 555.727px;
+	top: 24px;
+	background-color: rgb(244, 244, 244);
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: rgb(244, 244, 244);
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#Time value_Label {
+	left: 637px;
+	top: 33px;
+	background-color: #f4f4f4;
+	height: 20px;
+	width: 20px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: #f4f4f4;
+	border-radius: 1000px;
+	visibility: visible;
+	z-index: 2;
+}
+
+#appScreen_3 {
+	width: 800px;
+	height: 600px;
+	display: none;
+	transform: scale(1.21833, 1.21833);
+	transform-origin: left top 0px;
+	background-color: rgb(86, 181, 255);
+	background-image: url("Background_Background_Pattern_4.svg");
+	background-size: auto;
+	background-repeat: repeat;
+}
+
+#patch_two_Label {
+	left: 223.856px;
+	top: 78.3762px;
+	height: 220px;
+	width: 350px;
+	border-color: rgb(105, 202, 255);
+	border-radius: 5px;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#scoreboard_Label {
+	left: 283.357px;
+	top: 6.09302px;
+	background-color: transparent;
+	color: rgb(210, 78, 42);
+	height: 100px;
+	width: 200px;
+	font-family: comfortaRegularFont;
+	font-size: 32px;
+	border-color: transparent;
+	visibility: visible;
+	opacity: 1;
+}
+
+#fs_Label {
+	left: 442px;
+	top: 236px;
+	background-color: transparent;
+	font-size: 22px;
+	border-color: #b3f7b3;
+	visibility: visible;
+	z-index: 2;
+}
+
+#hs_Label {
+	left: 439px;
+	top: 104px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 22px;
+	border-color: #b3f7b3;
+	visibility: visible;
+	z-index: 2;
+}
+
+#hsname_Label {
+	left: 441px;
+	top: 176px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 22px;
+	border-color: #b3f7b3;
+	visibility: visible;
+	z-index: 2;
+}
+
+#fs1_Label {
+	left: 235.928px;
+	top: 240.735px;
+	background-color: transparent;
+	width: 160px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: transparent;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#hs1_Label {
+	left: 238.464px;
+	top: 101.763px;
+	background-color: transparent;
+	width: 160px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: transparent;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#hsname1_Label {
+	left: 238.928px;
+	top: 174.226px;
+	background-color: transparent;
+	width: 160px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 22px;
+	border-color: transparent;
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+#wish_Label {
+	left: 44px;
+	top: 325px;
+	background-color: transparent;
+	height: 50px;
+	width: 700px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 20px;
+	border-color: transparent;
+	visibility: visible;
+}
+
+#thanks_Label {
+	left: 52.501px;
+	top: 343.018px;
+	background-color: transparent;
+	height: 50px;
+	width: 700px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 20px;
+	border-color: transparent;
+	visibility: visible;
+	opacity: 1;
+}
+
+#congrates_Label {
+	left: 71.3573px;
+	top: 390.405px;
+	background-color: transparent;
+	height: 50px;
+	width: 700px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 20px;
+	border-color: transparent;
+	visibility: visible;
+	opacity: 1;
+}
+
+#ravi_Label {
+	left: 1px;
+	top: 500px;
+	background-color: transparent;
+	color: rgb(232, 252, 121);
+	height: 100px;
+	width: 300px;
+	font-family: comfortaRegularFont;
+	font-size: 40px;
+	border-color: transparent;
+	border-radius: 5px;
+	visibility: visible;
+	opacity: 1;
+}
+
+#replay_Button {
+	left: 296px;
+	top: 460px;
+	width: 200px;
+	font-family: cutiveMonoRegularFont;
+	font-size: 24px;
+	border-color: transparent;
+	visibility: visible;
+}
